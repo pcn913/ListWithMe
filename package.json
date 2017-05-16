@@ -1,0 +1,22 @@
+{
+  "name": "listwithme",
+  "version": "1.0.0",
+  "description": "a simple way to make, share, and find lists",
+  "main": "listwithme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcn913/ListWithMe.git"
+  },
+  "keywords": [
+    "lists"
+  ],
+  "author": "Brandon Campbell, Kim Harrod, Prasanth Nannapaneni, Justin Taft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcn913/ListWithMe/issues"
+  },
+  "homepage": "https://github.com/pcn913/ListWithMe#readme"
+}
