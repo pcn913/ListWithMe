@@ -1,0 +1,90 @@
+listwithme database design:
+
+
+
+users
+------
+id
+fname
+lname
+email
+password
+timestamps
+
+
+
+list
+----
+userid
+category
+subcategory
+item
+timestamps
+
+
+list_categories
+---------------
+category
+
+
+
+
+
+CREATE TABLE [dbo].[list](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[userid] [int] NOT NULL,
+	[title] [varchar](50) NOT NULL,
+	[category] [varchar](50) NOT NULL,
+	[ispublic] [bit] NULL,
+	[created_at] [datetime] NULL
+)
+
+
+ 
+
+
+CREATE TABLE [dbo].[list_items](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[list_id] [int] NOT NULL,
+	[item] [varchar](100) NOT NULL,
+	[link] [varchar](100) NULL,
+	[created_at] [datetime] NULL
+) 
+
+
+
+
+CREATE TABLE [dbo].[users](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[fname] [varchar](50) NOT NULL,
+	[lname] [varchar](50) NOT NULL,
+	[email] [varchar](100) NOT NULL,
+	[passwd] [varchar](50) NOT NULL,
+	[created_at] [datetime] NULL
+) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
