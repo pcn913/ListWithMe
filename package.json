@@ -1,8 +1,8 @@
 {
-  "name": "listwithme",
+  "name": "welist",
   "version": "1.0.0",
   "description": "a simple way to make, share, and find lists",
-  "main": "listwithme.js",
+  "main": "welist.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
